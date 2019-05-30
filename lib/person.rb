@@ -6,4 +6,7 @@ class Person
   def name #this is the reader method, the getter
     @name
   end
+  def jobs=(job)
+    @job = job
+  end
 end

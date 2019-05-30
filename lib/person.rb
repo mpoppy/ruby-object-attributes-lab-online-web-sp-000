@@ -9,4 +9,7 @@ class Person
   def jobs=(job)
     @job = job
   end
+  def jobs
+    @job
+  end
 end
